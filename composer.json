@@ -1,0 +1,38 @@
+{
+    "name": "fenrir/image-cdn",
+    "version": "1.0.0",
+    "type": "library",
+    "authors": [
+        {
+            "email": "contato@fenrirsoft.com.br",
+            "name": "Fábio Dias",
+            "homepage": "https://fenrirsoft.com.br"
+        }
+    ],    
+    "config": {
+        "platform": {
+            "php": "8.2"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Fenrir\\ImageCdn\\": "src/"
+        }
+    },
+    "require": {
+        "intervention/image": "^3.0",                
+        "fenrir/framework": "^1.0",
+        "fenrir/authentication": "^1.0"
+    },
+    
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Fenrir-Soft/framework"            
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Fenrir-Soft/authentication"            
+        }
+    ]
+}
